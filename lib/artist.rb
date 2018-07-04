@@ -14,10 +14,6 @@ class Artist
     song.artist = self if song.artist != self
   end
 
-  def name=(name)
-    self.name = name
-  end
-
   def self.all
     @@all
   end
