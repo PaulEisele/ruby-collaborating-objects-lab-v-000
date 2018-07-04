@@ -7,7 +7,7 @@ class MP3Importer
 
   def files
     file_name_array = Dir[@path + "/*.mp3"]
-    file.name_array.collect do |file|
+    file_name_array.collect do |file|
       file.split("/")[-1]
     end
   end
