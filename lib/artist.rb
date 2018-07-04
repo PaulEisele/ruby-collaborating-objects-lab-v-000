@@ -17,7 +17,7 @@ class Artist
   def name=(name)
     self.name = name
   end
-     
+
   end
 
   def self.all
